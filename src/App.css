@@ -33,3 +33,12 @@ h1 {
   border-radius: 1rem;
   border: 5px solid cornflowerblue;
 }
+
+sup {
+  background-color: crimson;
+  color: white;
+  padding: 2px;
+  font-size: 0.2em;
+  border-radius: 2px;
+  margin-left: 2px;
+}

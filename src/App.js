@@ -14,7 +14,9 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Friends List</h1>
+      <h1>
+        Friends List<sup>New</sup>
+      </h1>
       {friends.map((friend) => {
         return <Friend key={friend._id} friend={friend} />;
       })}
